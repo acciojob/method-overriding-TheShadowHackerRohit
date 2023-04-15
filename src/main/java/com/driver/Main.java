@@ -15,10 +15,11 @@ public class Main {
         }
     }
     public static void main(String[] args) {
-        B obj = new B();//task 3
-        System.out.println(obj.meth());
+        B obj1 = new B();//task 3
+        System.out.println(obj1.meth());
 
-        System.out.println(obj.meth());// task 5
+        B obj2 = new B();
+        System.out.println(obj2.meth());// task 5
 
     }
 }
